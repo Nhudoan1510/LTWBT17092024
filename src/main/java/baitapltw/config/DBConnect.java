@@ -5,7 +5,6 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnect {
-	private static Connection con = null;
 	private static String USERNAME = "root";
 	private static String PASSWORD = "151004";
 	private static String DRIVER = "com.mysql.cj.jdbc.Driver";
